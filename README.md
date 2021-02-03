@@ -33,18 +33,20 @@ ___
  >## Sample Output
  
  1. #### Output console
-    <image src="./outputImages/output.jpg" width="500" height="450">
+       <image src="./outputImages/output.jpg" width="500" height="500"/>
  1. #### Demo Files 
 
-    * *Text File*
+    * ##### **Text File**
         ![textdemo](./outputImages/textdemo.jpg)
 
-    * *Image File*
+    * ##### **Image File**
         ![imgdemo](./outputImages/imgdemo.jpg)
 
  1. #### DB console
-    * Before ->![Database before executing program](./outputImages/db1.jpg)
-    * After -> ![Database after execution of programm](./outputImages/db2.jpg)
+    * ##### **Before**
+        <image src="./outputImages/db1.jpg" width="500" height="400"/>
+    * ##### **After** 
+        <image src="./outputImages/db2.jpg" width="500" height="400"/>
 ___
 > ## References
 * [IEEE paper](https://ieeexplore.ieee.org/document/5738822)
