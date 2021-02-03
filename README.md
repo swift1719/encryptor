@@ -5,7 +5,7 @@
  * It uses three keys for encryption, which are user provided key, generated numeric key, and color key.
     1. Firstly, a numeric key is generated from the key provided by the user.
         * Then sum of ascii values of characters in key provided by user is obtained .
-        * Using the above obtained sum, now we will select a permutation from the array containing all permutation of [ 1, 2, 3, 4]  (as there exists 4 armstrong numbers)
+        * Using the above obtained sum, now we will select a permutation from the array containing all permutation of [ 1, 2, 3, 4]  (as there exists 4 armstrong numbers { 153, 370, 371, 407 } )
         * Using the permutation selected from the array of permutations we will form key by selecting the armstrong numbers from array of armstrong numbers in the order they appear the selected permutation and generate a part 'A' of numeric key.
         * Final numeric key is obtained by appending the sum of ascii values(part 'B') of characters within the key provided by user.
         * Final Numeric Key = part 'A' + part 'B'
@@ -21,19 +21,19 @@
 ___
 > ## Representation
 1. ### Data Flow
-    ![dataflow](./references/dataflow.png)
+    <image src="./references/dataflow.png" width="500" height="300">
 1. ### Encryption 
-    ![encryption](./references/encryption.png)
+    <image src="./references/Encryption.png" width="500" height="600"/>
 1. ### Decryption 
-    ![decryption](./references/decryption.png)
+    <image src="./references/Decryption.png" width="500" height="600"/>
 1. ### Obtaining color value from Color Matrix
-    ![colormatrix](./references/colormatrix.png)
+    <image src="./references/colormatrix.png" width="500" height="300"/>
 
 ___
  >## Sample Output
  
  1. ### Output console
-    ![Output](./outputImages/output.jpg)
+    <image src="./outputImages/output.jpg" width="500" height="450">
  1. ### Demo Files 
 
     * *Text File*
