@@ -22,9 +22,6 @@ public class Self_encryption {
             String src="",enc="",dec="",key="";
             
             System.out.println("\tWelcome to encryptor!!! \n\t--secure your files--\n=====================================\n");
-
-            
-//            System.out.println("Key is = "+key);
             String ch="";
             do{
                 
@@ -34,37 +31,6 @@ public class Self_encryption {
                 enc=sc.nextLine();
                 System.out.print("Enter decrypted file path: ");
                 dec=sc.nextLine();          
-
-//            switch(choice)
-//            {
-//                //      for Text Files
-//                case 1:  src = "g:/sample/sampleText.txt";
-//                         enc = "g:/sample/encryptedFile.txt";
-//                         dec = "g:/sample/decryptedFile.txt";
-//                         break;
-//                         
-//                //      for Image Files
-//                case 2: src = "g:/sample/sample_img.jpg";
-//                        enc = "g:/sample/encryptImg.jpg";
-//                        dec = "g:/sample/decrpytImg.jpg";
-//                        break;
-//                        
-//                //      for Audio Files
-//                case 3: src = "g:/sample/sampleAudio.m4a";
-//                        enc = "g:/sample/encryptedAudio.m4a";
-//                        dec = "g:/sample/decryptedAudio.m4a"; 
-//                        break;
-//                
-//                //      for Video Files
-//                case 4: src = "g:/sample/sample.mp4";
-//                        enc = "G:/sample/encryptVid.mp4";
-//                        dec = "G:/sample/decryptVid.mp4";
-//                        break;
-//                        
-//                default:
-//                    System.out.println("Invalid Choice");
-//
-//            }
 
 //          =========================================================================
 //          Establishing connection to the database
@@ -107,11 +73,6 @@ public class Self_encryption {
             
 //          ==========================================================================
 //          Retrieving enc file from the database
-//            System.out.print("Enter key to Decrypt : ");
-//            String dkey=sc.nextLine();
-//            if(!dkey.equals(key)){
-//             System.out.println("Incorrect Key");   
-//            }
 
             PreparedStatement ps_stmt = conn.prepareStatement("select data from filetable where filename=?");
             ps_stmt.setString(1, src);
