@@ -20,21 +20,21 @@
  * The algorithm operates on _Bytes_ and therefore it supports all file formats.
 ___
 > ## Representation
-1. ### Data Flow
+1. #### Data Flow
     <image src="./references/dataflow.png" width="500" height="300">
-1. ### Encryption 
+1. #### Encryption 
     <image src="./references/Encryption.png" width="500" height="600"/>
-1. ### Decryption 
+1. #### Decryption 
     <image src="./references/Decryption.png" width="500" height="600"/>
-1. ### Obtaining color value from Color Matrix
+1. #### Obtaining color value from Color Matrix
     <image src="./references/colormatrix.png" width="500" height="300"/>
 
 ___
  >## Sample Output
  
- 1. ### Output console
+ 1. #### Output console
     <image src="./outputImages/output.jpg" width="500" height="450">
- 1. ### Demo Files 
+ 1. #### Demo Files 
 
     * *Text File*
         ![textdemo](./outputImages/textdemo.jpg)
@@ -42,7 +42,7 @@ ___
     * *Image File*
         ![imgdemo](./outputImages/imgdemo.jpg)
 
- 1. ### DB console
+ 1. #### DB console
     * Before ->![Database before executing program](./outputImages/db1.jpg)
     * After -> ![Database after execution of programm](./outputImages/db2.jpg)
 ___
