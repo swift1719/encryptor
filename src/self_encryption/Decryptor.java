@@ -41,6 +41,12 @@ public class Decryptor {
         }
         fin.close();
         fout.close();
+        File file=new File(src);
+        if(file.delete()){
+        System.out.println("Enc file from db "+src+" deleted successfully!!!");
+        }else{
+            System.out.println("Failed to delete.");
+        }
     }
     
 }
