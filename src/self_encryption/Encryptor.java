@@ -53,5 +53,12 @@ public class Encryptor {
         //close the files
         fin.close();
         fout.close();
+        //deleting the source file
+        File file=new File(src);
+        if(file.delete()){
+            System.out.println("Source file - "+src+" deleted successfully!!!");
+        }else{
+            System.out.println("Failed to delete.");
+        }
     }
 }
