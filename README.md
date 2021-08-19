@@ -1,5 +1,5 @@
 > # **Encryptor**
->_The project aims to provides secure storage of data in the database._
+>_It is a Java based application that aims to ensure data security in a local computer system._
 
  * It uses *“Cryptography using Colors and Armstrong Numbers”* for encryption and decryption of data.
  * It uses three keys for encryption, which are as follows, user provided key, numeric key, and color key.
